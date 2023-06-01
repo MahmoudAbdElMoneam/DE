@@ -1,6 +1,7 @@
 # Data-intensive application for construction costs
 This application can be used to collect data from various sources to be shown in a real-time dashboard.
 The system architecture is as follows:
+
 ![System architecture](/images/Architecture.png)
 
 To clone:
