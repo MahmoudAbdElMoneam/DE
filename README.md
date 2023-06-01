@@ -6,7 +6,7 @@ To download it:
 git clone https://github.com/MahmoudAbdElMoneam/DE
 ```
 
-To run it, use cmd to navigate to the folder, then write the following command:
+To run it, use command prompt to navigate to the folder, then write the following command:
 ```
 docker-compose -f docker-compose.yml up
 ```
