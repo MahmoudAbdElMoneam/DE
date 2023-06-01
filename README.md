@@ -3,12 +3,12 @@ This application can be used to collect data from various sources to be shown in
 
 To download it:
 ```
-$ git clone https://github.com/MahmoudAbdElMoneam/DE
+git clone https://github.com/MahmoudAbdElMoneam/DE
 ```
 
 To run it, use cmd to navigate to the folder, then write the following command:
 ```
-docker-compose -f  docker-compose.yml up
+docker-compose -f docker-compose.yml up
 ```
 
 docker will take care of downloading the requirements and starting the containers in order.
