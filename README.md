@@ -2,7 +2,7 @@
 This application can be used to collect data from various sources to be shown in a real-time dashboard.
 The system architecture is as follows:
 
-![System architecture]( /images/System architecture.png)
+![System architecture](/images/System architecture.png)
 
 To clone:
 ```
