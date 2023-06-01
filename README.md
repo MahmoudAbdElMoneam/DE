@@ -1,4 +1,4 @@
-# Data-intensive application for construction costs
+# Data-intensive application for construction costs monitoring
 This application can be used to collect data from various sources to be shown in a real-time dashboard.
 The system architecture is as follows:
 
