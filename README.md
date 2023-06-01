@@ -1,12 +1,14 @@
 # Data-intensive application for construction costs
 This application can be used to collect data from various sources to be shown in a real-time dashboard.
+The system architecture is as follows:
+![System architecture](/images/Architecture.png)
 
-To download it:
+To clone:
 ```
 git clone https://github.com/MahmoudAbdElMoneam/DE
 ```
 
-To run it, use command prompt to navigate to the folder, then write the following command:
+To start the containers in windows, use command prompt to navigate to the folder, then write the following command (or use a similar approach as per the operating system):
 ```
 docker-compose -f docker-compose.yml up
 ```
@@ -20,3 +22,4 @@ We use [kafdrop](https://github.com/obsidiandynamics/kafdrop)  at http://localho
 
 It is worth mentioning that ensuring data security, governance, and protection of the system can be achieved by securing all our connections, we suggest using SASL_SSL, however there are other methods worth investigating.
 
+This system was developed and tested on windows 10, on a machine with 32 GB of RAM.
