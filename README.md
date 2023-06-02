@@ -22,6 +22,6 @@ http://localhost:5006/consumer
 
 We use [kafdrop](https://github.com/obsidiandynamics/kafdrop)  at http://localhost:9000/  to monitor kafka topics, brokers, performance, ingested messages, etc.
 
-It is worth mentioning that ensuring data security, governance, and protection of the system can be achieved by securing all our connections, we suggest using SASL_SSL, however there are other methods worth investigating.
+It is worth mentioning that ensuring data security, governance, and protection of the system can be achieved by securing all our connections, we suggest using SASL_SSL, however there are other methods worth investigating. Moreover, encrypting data in transit and at rest.
 
 This system was developed and tested on windows 10, on a machine with 32 GB of RAM.
